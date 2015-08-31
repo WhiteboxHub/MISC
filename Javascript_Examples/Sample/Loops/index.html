@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Loops Demo</title>
+    </head>
+    <body>
+        <h1>Loops Demo</h1>
+        <form name="demo">
+           <p> 
+           <label for="ToDo">Select few items on the list, and click on the button</label>
+            <select id="ToDo" name ="ToDo" multiple="multiple">
+                <option value="1">I want to go for SkyDiving</option>
+                <option value="2">Lets do some yoga and meditaion.</option>
+                <option value="3">I have my Driving Test on Friday.</option>
+                <option value="4">I need to plan for meeting.</option>
+            </select>
+            </p>   
+            <button id="submitBtn" >How many are selected?</button>
+        </form>
+        
+        <script>
+           function getSelectedItems(selectedObject){
+               var itemsSelected = 0;
+               for (var i = 0 ; i <  selectedObject.options.length; i++) {
+                   if (selectedObject.options[i].selected)
+                       itemsSelected ++;
+               }
+               return itemsSelected;
+           }
+           var btn = document.getElementById("submitBtn");
+           btn.addEventListener("click" , function(){
+                alert("Number of items selected = "+ getSelectedItems(document.getElementById("ToDo")) )
+           })    
+        </script>
+    </body>
+
+
+</html>

@@ -1,0 +1,340 @@
+[-0.000][INFO]:     ChromeDriver 26.0.1383.0 C:\Users\Shilpi\SkyDrive\Documents\workspace\ClassExamplesApr2013\lib\chromedriver.exe
+[0.720][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.720][INFO]:      Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors about:blank
+[2.483][INFO]:      Connected to Chrome successfully. Version: 27.0.1453.94
+[2.496][FINE]:      Command received (/session/be6b06705337084b2f5bc5b283551ba1)
+[2.500][FINE]:      Command finished (/session/be6b06705337084b2f5bc5b283551ba1) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "27.0.1453.94",
+      "webStorageEnabled": true
+   }
+}
+
+[2.510][FINE]:      Command received (/session/be6b06705337084b2f5bc5b283551ba1/url) with params {
+   "url": "https://ebookstore.sony.com/"
+}
+
+[2.510][FINER]:     Waiting for all views to stop loading...
+[2.521][FINER]:     Done waiting for all views to stop loading
+[7.449][FINER]:     Waiting for all views to stop loading...
+[7.452][FINER]:     Done waiting for all views to stop loading
+[7.452][FINE]:      Command finished (/session/be6b06705337084b2f5bc5b283551ba1/url) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[7.455][FINE]:      Command received (/session/be6b06705337084b2f5bc5b283551ba1/elements) with params {
+   "using": "xpath",
+   "value": "//h2[text()='Browse']/following-sibling::ol/li"
+}
+
+[7.455][FINER]:     Waiting for all views to stop loading...
+[7.457][FINER]:     Done waiting for all views to stop loading
+[7.492][FINER]:     Waiting for all views to stop loading...
+[7.493][FINER]:     Done waiting for all views to stop loading
+[7.493][FINE]:      Command finished (/session/be6b06705337084b2f5bc5b283551ba1/elements) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1370634263552"
+   }, {
+      "ELEMENT": ":wdc:1370634263553"
+   }, {
+      "ELEMENT": ":wdc:1370634263554"
+   }, {
+      "ELEMENT": ":wdc:1370634263555"
+   }, {
+      "ELEMENT": ":wdc:1370634263556"
+   }, {
+      "ELEMENT": ":wdc:1370634263557"
+   }, {
+      "ELEMENT": ":wdc:1370634263558"
+   } ]
+}
+
+[7.497][FINE]:      Command received (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634263552/text)
+[7.497][FINER]:     Waiting for all views to stop loading...
+[7.497][FINER]:     Done waiting for all views to stop loading
+[7.545][FINER]:     Waiting for all views to stop loading...
+[7.545][FINER]:     Done waiting for all views to stop loading
+[7.545][FINE]:      Command finished (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634263552/text) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": "Authors"
+}
+
+[7.547][FINE]:      Command received (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634263553/text)
+[7.547][FINER]:     Waiting for all views to stop loading...
+[7.548][FINER]:     Done waiting for all views to stop loading
+[7.577][FINER]:     Waiting for all views to stop loading...
+[7.577][FINER]:     Done waiting for all views to stop loading
+[7.577][FINE]:      Command finished (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634263553/text) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": "Awards"
+}
+
+[7.579][FINE]:      Command received (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634263554/text)
+[7.579][FINER]:     Waiting for all views to stop loading...
+[7.579][FINER]:     Done waiting for all views to stop loading
+[7.605][FINER]:     Waiting for all views to stop loading...
+[7.605][FINER]:     Done waiting for all views to stop loading
+[7.605][FINE]:      Command finished (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634263554/text) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": "Bargain-Priced"
+}
+
+[7.607][FINE]:      Command received (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634263555/text)
+[7.607][FINER]:     Waiting for all views to stop loading...
+[7.607][FINER]:     Done waiting for all views to stop loading
+[7.632][FINER]:     Waiting for all views to stop loading...
+[7.633][FINER]:     Done waiting for all views to stop loading
+[7.633][FINE]:      Command finished (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634263555/text) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": "Bundles"
+}
+
+[7.635][FINE]:      Command received (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634263556/text)
+[7.635][FINER]:     Waiting for all views to stop loading...
+[7.635][FINER]:     Done waiting for all views to stop loading
+[7.661][FINER]:     Waiting for all views to stop loading...
+[7.661][FINER]:     Done waiting for all views to stop loading
+[7.661][FINE]:      Command finished (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634263556/text) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": "Kids Corner"
+}
+
+[7.663][FINE]:      Command received (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634263557/text)
+[7.664][FINER]:     Waiting for all views to stop loading...
+[7.664][FINER]:     Done waiting for all views to stop loading
+[7.694][FINER]:     Waiting for all views to stop loading...
+[7.694][FINER]:     Done waiting for all views to stop loading
+[7.694][FINE]:      Command finished (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634263557/text) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": "Magazines"
+}
+
+[7.696][FINE]:      Command received (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634263558/text)
+[7.696][FINER]:     Waiting for all views to stop loading...
+[7.696][FINER]:     Done waiting for all views to stop loading
+[7.722][FINER]:     Waiting for all views to stop loading...
+[7.722][FINER]:     Done waiting for all views to stop loading
+[7.722][FINE]:      Command finished (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634263558/text) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": "New Arrivals"
+}
+
+[7.726][FINE]:      Command received (/session/be6b06705337084b2f5bc5b283551ba1/url) with params {
+   "url": "https://ebookstore.sony.com/"
+}
+
+[7.726][FINER]:     Waiting for all views to stop loading...
+[7.727][FINER]:     Done waiting for all views to stop loading
+[11.210][FINER]:    Waiting for all views to stop loading...
+[11.214][FINER]:    Done waiting for all views to stop loading
+[11.214][FINE]:     Command finished (/session/be6b06705337084b2f5bc5b283551ba1/url) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[11.220][FINE]:     Command received (/session/be6b06705337084b2f5bc5b283551ba1/element) with params {
+   "using": "xpath",
+   "value": "(//img[@alt='Readers Store'])[1]"
+}
+
+[11.220][FINER]:    Waiting for all views to stop loading...
+[11.221][FINER]:    Done waiting for all views to stop loading
+[11.266][FINER]:    Waiting for all views to stop loading...
+[11.267][FINER]:    Done waiting for all views to stop loading
+[11.267][WARNING]:  Command finished (/session/be6b06705337084b2f5bc5b283551ba1/element) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[11.271][FINE]:     Command received (/session/be6b06705337084b2f5bc5b283551ba1/element) with params {
+   "using": "xpath",
+   "value": "(//img[@alt='Reader Store'])[2]"
+}
+
+[11.271][FINER]:    Waiting for all views to stop loading...
+[11.271][FINER]:    Done waiting for all views to stop loading
+[11.308][FINER]:    Waiting for all views to stop loading...
+[11.308][FINER]:    Done waiting for all views to stop loading
+[11.308][FINE]:     Command finished (/session/be6b06705337084b2f5bc5b283551ba1/element) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1370634267365"
+   }
+}
+
+[11.325][FINE]:     Command received (/session/be6b06705337084b2f5bc5b283551ba1/url) with params {
+   "url": "https://ebookstore.sony.com/"
+}
+
+[11.325][FINER]:    Waiting for all views to stop loading...
+[11.329][FINER]:    Done waiting for all views to stop loading
+[13.968][FINER]:    Waiting for all views to stop loading...
+[13.970][FINER]:    Done waiting for all views to stop loading
+[13.970][FINE]:     Command finished (/session/be6b06705337084b2f5bc5b283551ba1/url) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[13.972][FINE]:     Command received (/session/be6b06705337084b2f5bc5b283551ba1/title)
+[13.972][FINER]:    Waiting for all views to stop loading...
+[13.972][FINER]:    Done waiting for all views to stop loading
+[13.977][FINER]:    Waiting for all views to stop loading...
+[13.977][FINER]:    Done waiting for all views to stop loading
+[13.977][FINE]:     Command finished (/session/be6b06705337084b2f5bc5b283551ba1/title) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": "Reader Store - eBooks from Sony"
+}
+
+[13.987][FINE]:     Command received (/session/be6b06705337084b2f5bc5b283551ba1/url) with params {
+   "url": "https://ebookstore.sony.com/"
+}
+
+[13.987][FINER]:    Waiting for all views to stop loading...
+[13.989][FINER]:    Done waiting for all views to stop loading
+[16.506][FINER]:    Waiting for all views to stop loading...
+[16.508][FINER]:    Done waiting for all views to stop loading
+[16.509][FINE]:     Command finished (/session/be6b06705337084b2f5bc5b283551ba1/url) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[16.513][FINE]:     Command received (/session/be6b06705337084b2f5bc5b283551ba1/element) with params {
+   "using": "id",
+   "value": "keyword"
+}
+
+[16.513][FINER]:    Waiting for all views to stop loading...
+[16.517][FINER]:    Done waiting for all views to stop loading
+[16.561][FINER]:    Waiting for all views to stop loading...
+[16.562][FINER]:    Done waiting for all views to stop loading
+[16.562][FINE]:     Command finished (/session/be6b06705337084b2f5bc5b283551ba1/element) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1370634272620"
+   }
+}
+
+[16.567][FINE]:     Command received (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634272620/value) with params {
+   "id": ":wdc:1370634272620",
+   "value": [ "Oliver" ]
+}
+
+[16.567][FINER]:    Waiting for all views to stop loading...
+[16.567][FINER]:    Done waiting for all views to stop loading
+[16.754][FINER]:    Waiting for all views to stop loading...
+[16.754][FINER]:    Done waiting for all views to stop loading
+[16.754][FINE]:     Command finished (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634272620/value) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[16.757][FINE]:     Command received (/session/be6b06705337084b2f5bc5b283551ba1/element) with params {
+   "using": "id",
+   "value": "submitSearch"
+}
+
+[16.757][FINER]:    Waiting for all views to stop loading...
+[16.759][FINER]:    Done waiting for all views to stop loading
+[16.796][FINER]:    Waiting for all views to stop loading...
+[16.796][FINER]:    Done waiting for all views to stop loading
+[16.796][FINE]:     Command finished (/session/be6b06705337084b2f5bc5b283551ba1/element) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1370634272621"
+   }
+}
+
+[16.801][FINE]:     Command received (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634272621/click) with params {
+   "id": ":wdc:1370634272621"
+}
+
+[16.801][FINER]:    Waiting for all views to stop loading...
+[16.802][FINER]:    Done waiting for all views to stop loading
+[16.878][FINER]:    Waiting for all views to stop loading...
+[18.450][FINER]:    Done waiting for all views to stop loading
+[18.450][FINE]:     Command finished (/session/be6b06705337084b2f5bc5b283551ba1/element/:wdc:1370634272621/click) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[18.455][FINE]:     Command received (/session/be6b06705337084b2f5bc5b283551ba1/title)
+[18.455][FINER]:    Waiting for all views to stop loading...
+[18.457][FINER]:    Done waiting for all views to stop loading
+[18.460][FINER]:    Waiting for all views to stop loading...
+[18.462][FINER]:    Done waiting for all views to stop loading
+[18.462][FINE]:     Command finished (/session/be6b06705337084b2f5bc5b283551ba1/title) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": "Search Results for 'Oliver' :: Reader Store"
+}
+
+[18.466][FINE]:     Command received (/session/be6b06705337084b2f5bc5b283551ba1/window)
+[18.467][FINE]:     Command finished (/session/be6b06705337084b2f5bc5b283551ba1/window) with response {
+   "sessionId": "be6b06705337084b2f5bc5b283551ba1",
+   "status": 0,
+   "value": {
+
+   }
+}
+

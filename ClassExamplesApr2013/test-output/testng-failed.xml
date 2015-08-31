@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="MC(failed)">
+    <classes>
+      <class name="com.wbqa.wd.test.TestMCHomePage">
+        <methods>
+          <include name="testLike"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.wbqa.wd.test.TestMCHomePage -->
+    </classes>
+  </test> <!-- MC(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

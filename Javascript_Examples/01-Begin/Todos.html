@@ -1,0 +1,38 @@
+<html>
+  <head><title>My ToDo List</title></head>
+  <body>
+    <h1>My ToDo List</h1>    
+    <p></p>
+    <p>
+      <form id="todo_form">
+        <label for="mylist">Select the items you want to do today, and click the button below</label>
+        <select id="todolist" name="todolist" multiple="multiple">
+          <option value="1">I want to read Shakespere</option>
+          <option value="2">I want to go to movie</option>
+          <option value="3">I want to go for dinner</option>    
+          <option value="4">I want to learn Javascript</option>    
+          
+          </select>  
+          <button id="submit">Click here to see how many tasks you want to do?</button>   
+      </form>
+      
+      </p>
+    
+      <script>
+        
+        var btn = document.getElementById("submit");  
+        btn.addEventListener("click" , function(){  
+          
+         var selectObj = document.getElementById("todolist"); 
+         var numberofselecteditems = 0;
+         for (var i = 0 ; i < selectObj.options.length ; i++){
+             if (selectObj.options[i].selected)
+                 numberofselecteditems ++;
+         }
+         alert("You have selected " + numberofselecteditems + "items") ;
+         
+        });
+      </script>
+    
+    </body>
+</html>
