@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.wbqa.samples.WD.TestMCRates">
+        <methods>
+          <include name="test1" invocation-numbers="0 1"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- com.wbqa.samples.WD.TestMCRates -->
+      <class name="com.wbqa.samples.WD.TestMC">
+        <methods>
+          <include name="testAppURL"/>
+          <include name="testTC2"/>
+          <include name="testAllImages"/>
+          <include name="testwithVerifyTC1"/>
+          <include name="testTC1"/>
+        </methods>
+      </class> <!-- com.wbqa.samples.WD.TestMC -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

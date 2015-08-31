@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Entries in  the valid search on Ebook Sony Reader :10]]>
+    </line>
+    <line>
+      <![CDATA[Entries in  the valid search on Ebook Sony Reader :0]]>
+    </line>
+  </reporter-output>
+  <suite name="com.wbqa.samples.WD.TestESHomePage" duration-ms="59590" started-at="2013-04-14T06:35:58Z" finished-at="2013-04-14T06:36:58Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="59590" started-at="2013-04-14T06:35:58Z" finished-at="2013-04-14T06:36:58Z">
+      <class name="com.wbqa.samples.WD.TestESHomePage">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.wbqa.samples.WD.TestESHomePage@2fcac6db]" name="openBrowser" is-config="true" duration-ms="36426" started-at="2013-04-13T23:35:58Z" finished-at="2013-04-13T23:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testValid(java.lang.String, java.lang.String)[pri:0, instance:com.wbqa.samples.WD.TestESHomePage@2fcac6db]" name="testValid" duration-ms="4296" started-at="2013-04-13T23:36:35Z" data-provider="data" finished-at="2013-04-13T23:36:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sandra Brown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entries in  the valid search on Ebook Sony Reader :10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValid -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.wbqa.samples.WD.TestESHomePage@2fcac6db]" name="closeBrowser" is-config="true" duration-ms="4767" started-at="2013-04-13T23:36:39Z" finished-at="2013-04-13T23:36:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.wbqa.samples.WD.TestESHomePage@2fcac6db]" name="openBrowser" is-config="true" duration-ms="9611" started-at="2013-04-13T23:36:44Z" finished-at="2013-04-13T23:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testValid(java.lang.String, java.lang.String)[pri:0, instance:com.wbqa.samples.WD.TestESHomePage@2fcac6db]" name="testValid" duration-ms="2038" started-at="2013-04-13T23:36:53Z" data-provider="data" finished-at="2013-04-13T23:36:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hdjkhsjs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entries in  the valid search on Ebook Sony Reader :0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValid -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.wbqa.samples.WD.TestESHomePage@2fcac6db]" name="closeBrowser" is-config="true" duration-ms="2285" started-at="2013-04-13T23:36:55Z" finished-at="2013-04-13T23:36:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.wbqa.samples.WD.TestESHomePage -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.wbqa.samples.WD.TestESHomePage -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.wbqa.samples.WD.TestESHomePage]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.wbqa.samples.WD.TestESHomePage">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="testValid"/>
+        </methods>
+      </class> <!-- com.wbqa.samples.WD.TestESHomePage -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.wbqa.samples.WD.TestESHomePage] -->
