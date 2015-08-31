@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81" started-at="2015-07-10T03:03:49Z" finished-at="2015-07-10T03:03:49Z">
+    <groups>
+      <group name="positive">
+        <method signature="StringConTest.stringGroups()[pri:0, instance:com.java.testNg.StringConTest@16995df]" name="stringGroups" class="com.java.testNg.StringConTest"/>
+      </group> <!-- positive -->
+    </groups>
+    <test name="Test" duration-ms="81" started-at="2015-07-10T03:03:49Z" finished-at="2015-07-10T03:03:49Z">
+      <class name="com.java.testNg.secondTest">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.java.testNg.secondTest@1474c6c]" name="BeforeTest" is-config="true" duration-ms="0" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="classmethodbefore()[pri:0, instance:com.java.testNg.secondTest@1474c6c]" name="classmethodbefore" is-config="true" duration-ms="1" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classmethodbefore -->
+        <test-method status="PASS" signature="methodbefore()[pri:0, instance:com.java.testNg.secondTest@1474c6c]" name="methodbefore" is-config="true" duration-ms="0" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodbefore -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.java.testNg.secondTest@1474c6c]" name="f" duration-ms="1" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="methodafter()[pri:0, instance:com.java.testNg.secondTest@1474c6c]" name="methodafter" is-config="true" duration-ms="0" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodafter -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:com.java.testNg.secondTest@1474c6c]" name="f1" duration-ms="0" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="methodbefore()[pri:0, instance:com.java.testNg.secondTest@1474c6c]" name="methodbefore" is-config="true" duration-ms="0" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodbefore -->
+        <test-method status="PASS" signature="methodafter()[pri:0, instance:com.java.testNg.secondTest@1474c6c]" name="methodafter" is-config="true" duration-ms="0" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodafter -->
+        <test-method status="PASS" signature="classmethodafter()[pri:0, instance:com.java.testNg.secondTest@1474c6c]" name="classmethodafter" is-config="true" duration-ms="3" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classmethodafter -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.java.testNg.secondTest@1474c6c]" name="AfterTest" is-config="true" duration-ms="0" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.java.testNg.secondTest -->
+      <class name="com.java.testNg.StringConTest">
+        <test-method status="PASS" signature="personDetails(java.lang.String, int)[pri:0, instance:com.java.testNg.StringConTest@16995df]" name="personDetails" duration-ms="1" started-at="2015-07-09T20:03:49Z" data-provider="details" finished-at="2015-07-09T20:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bob]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personDetails -->
+        <test-method status="PASS" signature="personDetails(java.lang.String, int)[pri:0, instance:com.java.testNg.StringConTest@16995df]" name="personDetails" duration-ms="9" started-at="2015-07-09T20:03:49Z" data-provider="details" finished-at="2015-07-09T20:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personDetails -->
+        <test-method status="PASS" signature="personDetails(java.lang.String, int)[pri:0, instance:com.java.testNg.StringConTest@16995df]" name="personDetails" duration-ms="1" started-at="2015-07-09T20:03:49Z" data-provider="details" finished-at="2015-07-09T20:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personDetails -->
+        <test-method status="PASS" signature="stringNotNull()[pri:0, instance:com.java.testNg.StringConTest@16995df]" name="stringNotNull" duration-ms="9" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stringNotNull -->
+        <test-method status="PASS" signature="stringNullException()[pri:0, instance:com.java.testNg.StringConTest@16995df]" name="stringNullException" duration-ms="4" started-at="2015-07-09T20:03:49Z" description="This is the User readabel comment about the test case " finished-at="2015-07-09T20:03:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.java.testNg.StringConTest.stringNullException(StringConTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:648)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:834)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1176)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1101)
+	at org.testng.TestNG.run(TestNG.java:1009)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stringNullException -->
+        <test-method status="PASS" signature="innovaction()[pri:0, instance:com.java.testNg.StringConTest@16995df]" name="innovaction" duration-ms="1" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- innovaction -->
+        <test-method status="PASS" signature="innovaction()[pri:0, instance:com.java.testNg.StringConTest@16995df]" name="innovaction" duration-ms="2" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- innovaction -->
+        <test-method status="PASS" signature="stringGroups()[pri:0, instance:com.java.testNg.StringConTest@16995df]" name="stringGroups" duration-ms="1" started-at="2015-07-09T20:03:49Z" depends-on-methods="com.java.testNg.StringConTest.stringNotNull" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stringGroups -->
+      </class> <!-- com.java.testNg.StringConTest -->
+      <class name="com.java.testNg.NewTest1">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.java.testNg.NewTest1@1c14f68]" name="f" duration-ms="1" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.java.testNg.NewTest1 -->
+      <class name="com.java.testNg.NewTest">
+        <test-method status="PASS" signature="suitemethodbefore()[pri:0, instance:com.java.testNg.NewTest@c1fdc4]" name="suitemethodbefore" is-config="true" duration-ms="33" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitemethodbefore -->
+        <test-method status="PASS" signature="suitemethodbefore()[pri:0, instance:com.java.testNg.secondTest@1474c6c]" name="suitemethodbefore" is-config="true" duration-ms="0" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitemethodbefore -->
+        <test-method status="PASS" signature="classmethodbefore()[pri:0, instance:com.java.testNg.NewTest@c1fdc4]" name="classmethodbefore" is-config="true" duration-ms="1" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classmethodbefore -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.java.testNg.NewTest@c1fdc4]" name="f" duration-ms="4" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="classmethodafter()[pri:0, instance:com.java.testNg.NewTest@c1fdc4]" name="classmethodafter" is-config="true" duration-ms="0" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classmethodafter -->
+        <test-method status="PASS" signature="suitemethodafter()[pri:0, instance:com.java.testNg.NewTest@c1fdc4]" name="suitemethodafter" is-config="true" duration-ms="0" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitemethodafter -->
+        <test-method status="PASS" signature="suitemethodafter()[pri:0, instance:com.java.testNg.secondTest@1474c6c]" name="suitemethodafter" is-config="true" duration-ms="0" started-at="2015-07-09T20:03:49Z" finished-at="2015-07-09T20:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitemethodafter -->
+      </class> <!-- com.java.testNg.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
