@@ -1,0 +1,27 @@
+<html>
+<head>
+<script src="scripts/functions.js"></script>
+<script>
+function calcFact(){
+	var nStr = read("input-tb");
+	var n = parseInt(nStr);
+	var fact = 1;
+	var factStr = "n! = ";
+	
+	do{
+		fact *= n;
+		factStr += n+ "*"
+		n--;
+	}while (n > 0);
+	
+	factStr += " = " + fact;
+	print("output-tb",factStr); 
+}
+</script>
+</head>
+<body>
+<input type="text" id="input-tb" name="input-tb">
+<button id="btn-fact" onclick="calcFact()">Calculate factorial</button>
+<div id="output-tb"></div>
+</body>
+</html>

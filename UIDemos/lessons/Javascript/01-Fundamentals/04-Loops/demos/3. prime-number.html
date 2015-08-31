@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src="scripts/functions.js"></script>
+<script>
+	function checkPrime(){
+		var numberStr=read("input-tb");
+		var number = parseInt(numberStr);
+		var divider = 2;
+		var maxDivider = Math.sqrt(number);
+		var prime = true;
+		while (prime && (divider <= maxDivider))
+		{
+			if (number % divider == 0)
+			{
+				prime = false;        
+			}
+			divider++;
+		}
+		print("output-tb",prime);
+	}
+</script>
+</head>
+<body>
+<input type="text" id="input-tb" name="input-tb">
+<button id="btn-check-prime" onclick="checkPrime()">Check Prime</button>
+<div id="output-tb"></div>
+</body>
+</html>

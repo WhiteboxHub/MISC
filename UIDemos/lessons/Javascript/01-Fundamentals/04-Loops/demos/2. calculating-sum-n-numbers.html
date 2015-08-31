@@ -1,0 +1,29 @@
+<html>
+<head>
+<script src="scripts/functions.js"></script>
+<script>
+
+	function calcSum(){
+		var nStr = read("input-tb");
+		var n = parseInt(nStr);
+		var number = 1;
+		var sum = 1;
+		var result = "The sum 1";
+		while (number < n)
+		{
+		   number++;
+		   sum += number ;
+		   result += "+" + number;
+		}
+		result += " = " + sum;
+		
+		print("console-out",result);
+	}
+</script>
+</head>
+<body>
+<input type="text" id="input-tb" name="input-tb">
+<button id="btn-calc" onclick="calcSum()">Calculate sum</button>
+<div id="console-out"></div>
+</body>
+</html>

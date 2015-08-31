@@ -1,0 +1,33 @@
+<script type="text/javascript">
+    function Person(name) {
+        this.name = name;
+        this.talk = function () {
+            alert("Hi! I am " + this.name + '.');
+        }
+    }
+	
+    function Student(name, grade) {
+        this.name = name;
+        this.grade = grade;
+    }
+	
+    function Teacher(name, schoolClass) {
+        this.class = schoolClass;
+        this.name = name;
+        this.talk = function () {
+            alert("I am " + this.name + " and " +
+			"I am teaching " + this.class + '.');
+        }
+    }
+
+    Student.prototype = new Person();
+    Teacher.prototype = new Person();
+
+    var array = new Array(
+		new Teacher("Gana", "Math"), new Student("Gosho", 3),
+		new Person("Pesho"), new Teacher("Mara", "Literature"));
+    
+    for (var i = 0; i < array.length; i++) {
+        array[i].talk();
+    }
+</script>

@@ -1,0 +1,48 @@
+body {
+	background-color: gray;
+	background-image: url(pixel.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+	color: aqua;
+	margin: 15px;
+}
+
+a { 
+	color: Red;
+	text-decoration: none;
+}
+
+a:link { 
+	color: 00AAFF; 
+	text-decoration: none;
+}
+
+a:visited { 
+	color: 0077FF; 
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+h2#page-title
+{
+	text-align: center;
+	padding: 10px;
+}
+
+p.center
+{
+	padding-top: 30px;
+	text-align: center;
+}
+
+.warning
+{
+	display: inline;
+	text-align: center;
+	border: 1px dotted black;
+	padding: 10px;
+}

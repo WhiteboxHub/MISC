@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SutterHealthFunctional">
+              <span class="suite-name border-failed">SutterHealthFunctional</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SutterHealthFunctional">
+                    <span>C:\Users\Shilpi\SkyDrive\Documents\workspace\SutterHealthMay2015\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SutterHealthFunctional">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SutterHealthFunctional">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SutterHealthFunctional">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SutterHealthFunctional">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SutterHealthFunctional">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SutterHealthFunctional">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 3 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SutterHealthFunctional" class="hide-methods failed suite-SutterHealthFunctional"> (hide)</a> <!-- hide-methods failed suite-SutterHealthFunctional -->
+                      <a href="#" panel-name="suite-SutterHealthFunctional" class="show-methods failed suite-SutterHealthFunctional"> (show)</a> <!-- show-methods failed suite-SutterHealthFunctional -->
+                    </span>
+                    <div class="method-list-content failed suite-SutterHealthFunctional">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SutterHealthFunctional" title="com.sh.tests.SHFacilitiesTest" hash-for-method="testAllImages">testAllImages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SutterHealthFunctional" title="com.sh.tests.SHFindADoctorTest" hash-for-method="testFMSearchDoctor">testFMSearchDoctor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SutterHealthFunctional" title="com.sh.tests.SHFindADoctorTest" hash-for-method="testSearch(Flu Shots, 86)">testSearch(Flu Shots, 86)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SutterHealthFunctional -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SutterHealthFunctional" class="hide-methods passed suite-SutterHealthFunctional"> (hide)</a> <!-- hide-methods passed suite-SutterHealthFunctional -->
+                      <a href="#" panel-name="suite-SutterHealthFunctional" class="show-methods passed suite-SutterHealthFunctional"> (show)</a> <!-- show-methods passed suite-SutterHealthFunctional -->
+                    </span>
+                    <div class="method-list-content passed suite-SutterHealthFunctional">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SutterHealthFunctional" title="com.sh.tests.SHFacilitiesTest" hash-for-method="testFacilitiesPage">testFacilitiesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SutterHealthFunctional" title="com.sh.tests.SHFindADoctorTest" hash-for-method="testSearch(Patients, 3432)">testSearch(Patients, 3432)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SutterHealthFunctional" title="com.sh.tests.SHFindADoctorTest" hash-for-method="testSearch(Ebola, 5)">testSearch(Ebola, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SutterHealthFunctional -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SutterHealthFunctional" class="panel SutterHealthFunctional">
+          <div class="suite-SutterHealthFunctional-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sh.tests.SHFacilitiesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllImages">
+                  </a> <!-- testAllImages -->
+                  <span class="method-name">testAllImages</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.sh.tests.SHFacilitiesTest.testAllImages(SHFacilitiesTest.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SutterHealthFunctional-class-failed -->
+          <div class="suite-SutterHealthFunctional-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sh.tests.SHFindADoctorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFMSearchDoctor">
+                  </a> <!-- testFMSearchDoctor -->
+                  <span class="method-name">testFMSearchDoctor</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 4.76 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;ShilpiPC&apos;, ip: &apos;192.168.5.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: 6134b3d1-7b58-4211-b2d4-dc5f538b22fb
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=37.0.2}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:152)
+	at com.sh.pages.SHProvideSearchResults.getHeader(SHProvideSearchResults.java:18)
+	at com.sh.tests.SHFindADoctorTest.testFMSearchDoctor(SHFindADoctorTest.java:51)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;ShilpiPC&apos;, ip: &apos;192.168.5.1&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:8953)
+	at &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Users/Shilpi/AppData/Local/Temp/anonymous8735524020858370020webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8546)
+	at &lt;anonymous class&gt;.WebElement.getElementText(file:///C:/Users/Shilpi/AppData/Local/Temp/anonymous8735524020858370020webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11704)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Shilpi/AppData/Local/Temp/anonymous8735524020858370020webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/Shilpi/AppData/Local/Temp/anonymous8735524020858370020webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/Shilpi/AppData/Local/Temp/anonymous8735524020858370020webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch(Flu Shots, 86)">
+                  </a> <!-- testSearch(Flu Shots, 86) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(Flu Shots, 86)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.sh.tests.SHFindADoctorTest.testSearch(SHFindADoctorTest.java:42)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SutterHealthFunctional-class-failed -->
+          <div class="suite-SutterHealthFunctional-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sh.tests.SHFacilitiesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFacilitiesPage">
+                  </a> <!-- testFacilitiesPage -->
+                  <span class="method-name">testFacilitiesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SutterHealthFunctional-class-passed -->
+          <div class="suite-SutterHealthFunctional-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sh.tests.SHFindADoctorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch(Patients, 3432)">
+                  </a> <!-- testSearch(Patients, 3432) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(Patients, 3432)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch(Ebola, 5)">
+                  </a> <!-- testSearch(Ebola, 5) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(Ebola, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SutterHealthFunctional-class-passed -->
+        </div> <!-- panel SutterHealthFunctional -->
+        <div panel-name="test-xml-SutterHealthFunctional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Shilpi\SkyDrive\Documents\workspace\SutterHealthMay2015\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SutterHealthFunctional&quot; parallel=&quot;classes&quot;&gt;
+  &lt;test name=&quot;FFRegression&quot;&gt;
+    &lt;parameter name=&quot;browsername&quot; value=&quot;ff&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sh.tests.SHFacilitiesTest&quot;/&gt;
+      &lt;class name=&quot;com.sh.tests.SHFindADoctorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FFRegression --&gt;
+&lt;/suite&gt; &lt;!-- SutterHealthFunctional --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SutterHealthFunctional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SutterHealthFunctional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FFRegression (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SutterHealthFunctional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SutterHealthFunctional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFacilitiesPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFacilitiesPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SutterHealthFunctional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SutterHealthFunctional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SutterHealthFunctional');
+function tableData_SutterHealthFunctional() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testFMSearchDoctor')
+data.setCell(0, 2, 'com.sh.tests.SHFindADoctorTest')
+data.setCell(0, 3, 9590);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSearch')
+data.setCell(1, 2, 'com.sh.tests.SHFindADoctorTest')
+data.setCell(1, 3, 9155);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSearch')
+data.setCell(2, 2, 'com.sh.tests.SHFindADoctorTest')
+data.setCell(2, 3, 6711);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSearch')
+data.setCell(3, 2, 'com.sh.tests.SHFindADoctorTest')
+data.setCell(3, 3, 6284);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testAllImages')
+data.setCell(4, 2, 'com.sh.tests.SHFacilitiesTest')
+data.setCell(4, 3, 3331);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testFacilitiesPage')
+data.setCell(5, 2, 'com.sh.tests.SHFacilitiesTest')
+data.setCell(5, 3, 133);
+window.suiteTableData['SutterHealthFunctional']= { tableData: data, tableDiv: 'times-div-SutterHealthFunctional'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <div id="times-div-SutterHealthFunctional">
+              </div> <!-- times-div-SutterHealthFunctional -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SutterHealthFunctional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SutterHealthFunctional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SutterHealthFunctional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SutterHealthFunctional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sh.tests.SHFindADoctorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sh.tests.SHFacilitiesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAllImages</span>
+                <span class="method-start">21224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">24562 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">24690 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sh.tests.SHFindADoctorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFMSearchDoctor</span>
+                <span class="method-start">38760 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">48373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">48641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">48641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">48641 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sh.tests.SHFacilitiesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFacilitiesPage</span>
+                <span class="method-start">50287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">50422 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sh.tests.SHFindADoctorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSearch(Patients, 3432)</span>
+                <span class="method-start">89842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">99000 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearch(Flu Shots, 86)</span>
+                <span class="method-start">109404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">115691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSearch(Ebola, 5)</span>
+                <span class="method-start">125477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">132191 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

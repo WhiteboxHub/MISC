@@ -1,0 +1,1 @@
+// Store the first list item in a variablevar firstItem = document.getElementById('one');// Get the content of the first list itemvar itemContent = firstItem.innerHTML;// Update the content of the first list item so it is a linkfirstItem.innerHTML = '<a href=\"http://example.org\">' + itemContent + '</a>';

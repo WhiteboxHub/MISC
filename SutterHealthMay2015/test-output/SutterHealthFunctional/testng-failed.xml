@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SutterHealthFunctional]" parallel="classes">
+  <parameter name="browsername" value="ff"/>
+  <test name="FFRegression(failed)" parallel="classes">
+    <parameter name="browsername" value="ff"/>
+    <classes>
+      <class name="com.sh.tests.SHFacilitiesTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="testAllImages"/>
+        </methods>
+      </class> <!-- com.sh.tests.SHFacilitiesTest -->
+      <class name="com.sh.tests.SHFindADoctorTest">
+        <methods>
+          <include name="testSearch" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="testFMSearchDoctor"/>
+        </methods>
+      </class> <!-- com.sh.tests.SHFindADoctorTest -->
+    </classes>
+  </test> <!-- FFRegression(failed) -->
+</suite> <!-- Failed suite [SutterHealthFunctional] -->

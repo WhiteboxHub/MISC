@@ -1,0 +1,16 @@
+<script type="text/javascript">
+Array.prototype.showMax = 
+ function () {
+  var max = this[0];
+  for (var i = 1; i < this.length; i++) {
+    if (max < this[i]) {
+      max = this[i];
+    }
+  }
+  return max;
+}
+
+var array = new Array(9, 1, 11, 3, 4);
+var max = array.showMax();
+alert(max);
+</script>

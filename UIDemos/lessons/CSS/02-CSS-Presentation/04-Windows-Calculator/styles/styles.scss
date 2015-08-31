@@ -1,0 +1,475 @@
+@mixin linear-gradient($from, $to) {
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, $from), color-stop(1, $to));
+
+	background-image: -o-linear-gradient(bottom, $from 0%, $to 100%);
+	background-image: -moz-linear-gradient(bottom, $from 0%, $to 100%);
+	background-image: -webkit-linear-gradient(bottom, $from 0%, $to 100%);
+	background-image: -ms-linear-gradient(bottom, $from 0%, $to 100%);
+	background-image: linear-gradient(to bottom, $from 0%, $to 100%);
+}
+
+@mixin buttons-gradient($top, $top-center, $center, $bottom) {
+	background: $top;
+	background: -moz-linear-gradient(top, $top 0%, $top-center 49%, #ffd06b 50%, #fff29e 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, $top), color-stop(49%, $top-center), color-stop(50%, $center), color-stop(100%, $bottom));
+	background: -webkit-linear-gradient(top, $top 0%, $top-center 49%, $center 50%, $bottom 100%);
+	background: -o-linear-gradient(top, $top 0%, $top-center 49%, $center 50%, $bottom 100%);
+	background: -ms-linear-gradient(top, $top 0%, $top-center 49%, $center 50%, $bottom 100%);
+	background: linear-gradient(to bottom, $top 0%, $top-center 49%, $center 50%, $bottom 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+}
+
+@mixin clearfix {
+	zoom: 1;
+
+	&:after {
+		display: block;
+		content: ""; 
+		height: 0;
+		clear: both;
+	}
+}
+
+@mixin main-container-style1 {
+	border: 1px solid #667F95;
+	background-color: #86A6C3;
+}
+
+@mixin main-container-style2 {
+	border: 1px solid #C0C0C0;
+	background-color: #FBFBFB;
+}
+
+@mixin main-container-style3 {	
+	border: 1px solid #5A9494;
+	background-color: #76C1C2;
+}
+
+@mixin transition($time: 0.2s, $property: background-color) {
+	-webkit-transition: $property $time;
+	-moz-transition:  $property $time;
+	-o-transition: $property $time;
+	transition: $property $time;
+}
+
+.unselectable {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	z-index: -1;	
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	cursor: default;
+	background: url('../images/background.jpg') no-repeat;
+	background-position-x: center;
+
+	ul {
+		list-style-type: none;
+		display: inline-block;
+
+		li {
+			display: inline-block;
+		}
+	}
+
+	
+	#buttons-container button {
+		height: 27px;
+		max-height: 27px;
+		width: 34px;
+		max-width: 34px;
+
+		font-family: 'Segoe UI';
+		font-size: 11px;
+
+		color: #000054;
+		border: 1px solid #8797AA;
+		border-radius: 2px;
+		outline: none;
+
+		@include buttons-gradient(#F0F6FB, #E2EAF3, #D5E0ED, #D7E2EF);
+
+		&.disabled {
+			border: 1px solid #B4C2D1;
+			background: #D9E4F1;	
+
+			&:hover {
+				@extend .disabled;
+			}
+		}
+
+		&:hover {
+			border: 1px solid #FFDB00;
+			@include transition(0.5s, border);
+			@include buttons-gradient(#FEF5EB, #FCE3C6, #FBD075, #FCF8CA);
+		}
+	}
+}
+
+#main-container {
+	margin: 0 auto;
+	margin-top: 50px;
+
+	width: 421px;
+	max-width: 421px;
+	height: 387px;
+	max-height: 387px;
+
+	//*
+	@include main-container-style1;
+	/*/
+	@include main-container-style2;
+	//*/
+	//@include main-container-style3;
+
+	#title-bar {
+		@extend .unselectable;
+
+		padding-left: 11px;
+
+		#icon {
+			padding-top: 4px;
+			vertical-align: middle;
+		}
+
+		.title {
+			display: inline-block;
+			padding-top: 4px;
+			margin-left: 150px;
+			vertical-align: middle;
+			font-family: 'Segoe UI';
+			font-size: 15px;
+		}
+
+		#control-buttons {
+			float: right;
+
+			img {
+				margin-bottom: 1px;
+			}
+
+			.styled-button {
+				border: none;
+				background: transparent;
+				outline: none;
+			}
+
+			#minimize-button {
+				width: 26px;
+				height: 20px;		
+
+				@extend .styled-button;
+				
+				img {
+					background-color: #282828;
+				}
+
+				&:hover {
+					@include transition(0.5s);
+					background-color: #3665B3;
+
+					img {
+						background-color: white;
+					}
+				}
+			}
+
+			#maximize-button {
+				width: 27px;			
+				height: 20px;
+
+				@extend .styled-button;
+			}
+
+			#close-button {
+				height: 20px;
+				width: 45px;
+				margin-right: 6px;
+
+				background-color: #C75050;
+
+				@extend .styled-button;
+
+				&:hover {					
+					@include transition(0.5s);
+					background-color: #E04343;
+				}
+			}
+		}
+	}
+
+	#inner-container {
+		margin: 5px 6px 6px 6px;
+		height: auto;
+		border: 1px solid #D6D6D6;
+
+		#navigation-bar {
+			height: 19px;
+			max-height: 19px;
+
+			background-color: #F5F6F7;
+			border-bottom: 1px solid #E8E9EA;
+
+			ul 
+			{
+				display: block;
+				margin-left: -1px;
+				font-family: 'Segoe UI';
+				font-size: 12px;
+
+				li {
+					cursor: default;
+					margin-top: -1px;
+					padding: 2px 7px 0 7px;				
+
+					@extend .unselectable;
+
+					&:hover {
+						padding: 1px 6px 3px 6px;
+						background-color: #D5E7F8;
+						border: 1px solid #74AAE2;
+					}
+				}
+			}
+		}
+
+		#view-container {
+			padding: 10px 0 7px 11px;
+
+			@include linear-gradient(#EDF4FC, #D9E4F1);
+
+			#result-container-bg {
+				padding: 1px;
+				margin-right: 10px;
+				background-color: white;
+				border: 1px solid #8E9CAD;
+				border-radius: 2px;
+
+					#result-container {
+					height: 46px;
+					padding-right: 3px;
+
+					@include linear-gradient(#E5EEFB, #FFFFFF);
+
+					textarea {
+						width: 100%;
+						height: 30px;
+						margin-top: 14px;
+						overflow: hidden;
+						resize: none;
+						outline: none;
+						cursor: default;
+
+						font-family: 'Consolas';
+						font-size: 1.5em;
+						text-align: right;
+						vertical-align: top;
+										
+						background-color: transparent;
+						border: none;	
+					
+						@extend .unselectable;			
+					}
+				}
+			}
+
+			#binary-result-container-bg {
+				margin-top: 5px;
+				border: 1px solid #8E9CAD;
+				border-radius: 2px;
+				padding: 1px;
+				margin-right: 10px;
+				background-color: white;
+
+				#binary-result-container {
+					height: 54px;
+					padding: 3px 0 0 6px;
+					line-height: 15px;
+					cursor: default;
+
+					font-family: 'Consolas';
+					font-size: 12px;
+								
+					background-color: #E6EEF8;
+
+					ul {
+						display: block;
+						padding: 0;
+						margin: -2px 0;
+					
+						@extend .unselectable;
+						$padding-left: 137px;
+
+						li {
+							margin: 0;
+							padding: 0;
+
+							&.center {
+								padding-left: $padding-left + 34;
+							}
+
+							&.right {
+								padding-left: $padding-left;
+							}
+
+							&.right.right-more {
+								padding-left: $padding-left + 7;
+							}
+						}
+					}			
+
+					.zeros {
+						color: #1E395B;
+
+						li:not(:first-child) {
+							padding-left: 20px;
+						}
+					}
+
+					.decimals {
+						color: #666666;
+					}
+				}
+			}
+
+			.small-containers-options {
+				width: 64px;
+				max-width: 64px;
+				margin-top: 5px;
+				padding: 8px 0 1px 7px;
+				border: 1px solid #8696AA;
+				border-radius: 2px;
+
+				ul {
+					display: block;
+					font-family: 'Segoe UI';
+					font-size: 11px;
+
+					li {
+						display: block;
+						padding-bottom: 5px;
+
+						label {
+							display: inline-block;
+							width: 45px;
+							vertical-align: top;
+						}
+					}
+				}
+			}
+
+			#radio-container {
+				display: inline-block;
+				float: left;
+
+				#numeral-systems-container {
+					@extend .small-containers-options;
+				}
+
+				#bits-length-container {
+					@extend .small-containers-options;
+				}
+			}
+
+			#buttons-container {
+				display: inline-block;
+				margin-top: 5px;
+
+				#buttons-bitwise {
+					display: inline-block;
+					width: 79px;
+												
+					li {
+						padding-left: 5px;
+						padding-bottom: 5px;
+					}
+				}
+
+				#buttons-letters {
+					width: 36px;
+					display: inline-block;
+
+					button {
+						font-size: 12px;
+						background-color: #D4E0ED;
+					}
+						
+					li {				
+						padding-bottom: 5px;
+					}
+				}
+
+				#buttons-common {
+					display: inline-block;
+					width: 195px;	
+
+					li {
+						padding-bottom: 5px;
+
+						&:not(:last-of-type) {
+							padding-right: 5px;
+						}
+					}
+
+					#clear-sign {
+						font-weight: bold;
+					}
+
+					.digit {
+						@include buttons-gradient(#F7FBFF, #EDF3F8, #E7EDF5, #EEF6FB);
+
+						&:hover {
+							@extend button;
+						}
+					}
+				}
+
+				#buttons-common-operations {
+					.col2 {
+						width: 73px;
+
+						button {
+							min-width: 100%;
+						}
+					}
+
+					.relative {
+						position: relative;
+					}
+
+					.row2 {
+						position: relative;
+
+						button {
+							position: absolute;
+							top: -13px;
+							height: 59px;	
+							max-height: 59px;				
+							font-size: 1.3em;
+							font-weight: bold;
+						}
+					}
+				}
+
+				#buttons-memory button {
+					border: 1px solid #8797AA;
+					@include buttons-gradient(#D4E0ED, #D5E0ED, #D5E0ED, #D7E2EF);
+
+					&:hover {
+						@extend button;
+					}
+				}
+			}
+		}
+	}
+}

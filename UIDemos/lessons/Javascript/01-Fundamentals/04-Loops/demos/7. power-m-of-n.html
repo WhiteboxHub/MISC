@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src="scripts/functions.js"></script>
+<script>
+function calcPower(){
+	var nStr = read("input-tb-n");
+	var n = parseInt(nStr);
+	
+	var mStr = read("input-tb-m");
+	var m = parseInt(mStr);
+  
+    var result = 1;
+    for (var i=0; i<m; i++)
+    {
+        result *= n;
+    }
+	
+	print("output-tb",n+ "^" + m +" = " + result);
+}
+</script>
+</head>
+<body>
+<input type="text" id="input-tb-n" name="input-tb">
+<input type="text" id="input-tb-m" name="input-tb">
+<button id="btn-power" onclick="calcPower()">Calculate power</button>
+<div id="output-tb"></div>
+</body>
+</html>

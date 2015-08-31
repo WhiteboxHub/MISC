@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="SutterHealthFunctional" verbose="1" parallel = "classes">
+  <test name="FFRegression" >
+      <parameter name="browsername" value="ff"></parameter>
+    <classes>
+       <class name="com.sh.tests.SHFacilitiesTest" />
+       <class name="com.sh.tests.SHFindADoctorTest"></class>
+    </classes>
+    <!--     <groups>
+        <run>
+            <include name="Sanity"></include>
+            <include name="Functional"></include>
+        </run>
+    </groups>
+    -->
+  </test>
+  <!--   <test name="ChRegression" >
+      <parameter name="browsername" value="chrome"></parameter>
+    <classes>
+       <class name="com.sh.tests.SHFacilitiesTest" />
+       <class name="com.sh.tests.SHHomePageTest"></class>
+    </classes>
+  </test>
+  -->
+</suite>

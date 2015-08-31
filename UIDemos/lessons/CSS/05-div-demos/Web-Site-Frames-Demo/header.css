@@ -1,0 +1,45 @@
+body
+{
+	margin: 0;
+	background-color: #444444;
+	min-width: 550px;
+}
+
+#header
+{
+	display: table;
+	border: 1px solid white;
+	width: 100%;
+}
+
+#row  {
+	display: table-row;
+}
+
+#header-left
+{
+	display: table-cell;
+	width: 124px;
+	height: 83px;
+	background-image: url("header-left.gif");
+	background-repeat: no-repeat;
+	border-right: 1px solid white;
+}
+
+#header-right
+{
+	display: table-cell;
+	width: 125px;
+	height: 83px;
+	background-image: url("header-right.gif");
+	background-repeat: no-repeat;
+	border-left: 1px solid white;
+}
+
+#header-middle
+{
+	display: table-cell;
+	color: aqua;
+	text-align: center;
+	vertical-align: middle;
+}

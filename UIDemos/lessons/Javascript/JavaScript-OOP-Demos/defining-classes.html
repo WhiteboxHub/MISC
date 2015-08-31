@@ -1,0 +1,26 @@
+<body>
+<script type="text/javascript">
+var student = new Object;
+student.name = "Doncho Minkov";
+student .grade = "3" ;
+
+document.writeln(student.name);
+
+function Student(name,grade)
+{
+    this.name = name;
+    this.grade = grade;
+    this.sayHello = function () {
+        alert("Hi! I am " + this.name + " and and in " + this.grade + " grade");
+    }
+}
+ 
+var Doncho=new Student("Doncho Minkov",3);
+var Pesho=new Student("Pesho Peshov",2);
+var Stamat = new Student("Stamat Geshov", 4);
+
+Doncho.sayHello();
+Stamat.sayHello();
+Pesho.sayHello();
+</script>
+</body>

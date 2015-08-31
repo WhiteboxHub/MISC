@@ -1,0 +1,40 @@
+<html>
+<head>
+<script src="scripts/functions.js"></script>
+<script>
+function printPrimes(){
+	var nStr = read("input-tb-n");
+	var n = parseInt(nStr);
+
+	var mStr = read("input-tb-m");
+	var m = parseInt(mStr);
+	
+	var result="";
+	
+	for (var number = n; number <= m; number++){
+		var prime = true;
+		var divider = 2;
+		var maxDivider = Math.sqrt(number);
+		while (divider <= maxDivider){
+			if (number % divider == 0){
+				prime = false;
+				break;
+			}
+			divider++;
+		}
+		if (prime){
+			result += number+ " ";
+		}
+	}
+	
+	print("output-tb",result);
+}
+</script>
+</head>
+<body>
+<input type="text" id="input-tb-n" name="input-tb-n">
+<input type="text" id="input-tb-m" name="input-tb-m">
+<button id="btn-primes" onclick="printPrimes()">print primes</button>
+<div id="output-tb"></div>
+</body>
+</html>

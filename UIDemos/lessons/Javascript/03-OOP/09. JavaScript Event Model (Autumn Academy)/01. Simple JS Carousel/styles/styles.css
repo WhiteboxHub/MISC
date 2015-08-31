@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0 20px 0 20px;
+}
+
+ul, li {
+    list-style-type: none;
+    display: inline-block;
+
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+#wrapper {
+    position: relative;
+    margin: 0 auto;
+        width: 1045px;
+    min-width: 1045px;
+    max-width: 1045px;
+}
+
+#carousel-container {
+    padding-top: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+        width: 908px;
+    min-width: 908px;
+    max-width: 908px;
+}
+
+#carousel-innercontainer {
+    height: 225px;
+    max-height: 225px;
+        width: 1500px;
+    min-width: 1500px;
+    max-width: 1500px;
+}
+
+#carousel-nav {
+    position: absolute;
+    width: 908px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#carousel-nav div {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    border: none;
+    background: url('../images/other.png');
+}
+
+#carousel-nav div.current {
+    background: url('../images/current.png');
+}
+
+#carousel-nav div:hover {
+    background: url('../images/current.png');
+}
+
+button {
+    position: absolute;
+    top: 120px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#previousButton {
+    left: -35px;
+    background: url(../images/previous.png);
+}
+
+#nextButton {
+    right: -35px;
+    background: url(../images/next.png);
+}

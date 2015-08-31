@@ -1,0 +1,29 @@
+.success {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10px !important;
+}
+
+a, .center, #id1
+{
+    text-decoration: none;
+    background-image: url();
+}
+
+ul li.center div + img {
+     font-weight: bold;
+}
+
+li > p {
+    font-weight: bold;
+}
+
+body:last-of-type(p)
+{
+
+}
+
+p:empty
+{
+
+}

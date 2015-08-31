@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script id="template" type="text/x-handlebars-template">
+    <section>
+        {{#articles}}
+            <article id="article-{{id}}" class="article">
+                <h1>{{title}}</h1>
+                <p>{{content}}</p>
+                {{#if postDate}}
+                    <span class="date">{{postDate}}</span>
+                {{/if}}
+                {{#unless postDate}}
+                    <span class="date">No date</span>
+                {{/unless}}
+            </article>
+        {{/articles}}
+    </section>
+
+    <section>
+        {{#each articles}}
+            <hr/>
+                <strong>{{@index}}</strong>
+            <hr/>
+            <article id="article-{{id}}" class="article">
+                <h1>{{title}}</h1>
+                <p>{{content}}</p>
+                {{#if postDate}}
+                    <span class="date">{{postDate}}</span>
+                {{/if}}
+                {{#unless postDate}}
+                    <span class="date">No date</span>
+                {{/unless}}
+            </article>
+            {{else}} <h1>NO ARTICLES</h1>
+        {{/each}}
+    </section>
+    </script>
+    <script type="text/javascript" src="handlebars.js"></script>
+    <script type="text/javascript" src="test.js"></script>
+</body>
+</html>

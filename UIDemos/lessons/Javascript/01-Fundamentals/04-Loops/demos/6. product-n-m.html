@@ -1,0 +1,38 @@
+<html>
+<head>
+<script src="scripts/functions.js"></script>
+<script>
+function calcProduct(){
+	var nStr = read("input-tb-n");
+	var n = parseInt(nStr);
+
+	var mStr = read("input-tb-m");
+	var m=parseInt(mStr);
+
+	var number = n;
+	var product = 1;
+	
+	var productStr = "";
+	do{		
+		product *= number;		
+		productStr +=number;
+		if(number!=m){
+			productStr+="*";
+		}
+		number++;
+	}while (number <= m);
+	
+	productStr += " = " + product;
+	
+	print("output-tb",productStr);
+
+}
+</script>
+</head>
+<body>
+<input type="text" id="input-tb-n" name="input-tb">
+<input type="text" id="input-tb-m" name="input-tb">
+<button id="btn-product" onclick="calcProduct()">Calculate product</button>
+<div id="output-tb"></div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+	<title>CSS Float and Clear rules</title>
+	<style type="text/css">
+		body {font-family:Verdana, Sans-Serif;font-size:25px}
+		div {border:1px solid red}
+	</style>
+</head>
+
+<body>
+	Here are two images that have float:left;
+	<img src="images/logocss.gif" style="float:left" alt="css"/>
+	<img src="images/logocss.gif" style="float:left"  alt="css"/>
+	<span style="color:red">As you can see they were placed one next to the other. Also
+	note that THIS whole red text appears in code AFTER the images.As you can see they were placed one next to the other. Also
+	note that THIS whole red text appears in code AFTER the imagesAs you can see they were placed one next to the other. Also
+	note that THIS whole red text appears in code AFTER the images</span>
+	<br />
+	<br />
+	<br />
+	<br />
+	Next two images have float:left and clear:both;
+	<img src="images/logocss.gif" style="float:left;clear:both" alt="css"/>
+	<img src="images/logocss.gif" style="float:left;clear:both" alt="css"/>
+	<span style="color:red">As you can see now the images are not placed one next to the other because the clear rule prevents this. Yet the red text keeps
+	on showing BEFORE them, although in code appears AFTER them, because itself is in span that has no float rule applied</span>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<img src="images/logocss.gif" style="float:left;" alt="css"/>
+	<img src="images/logocss.gif" style="float:right;" alt="css"/>
+	Now - this is the best usage of float property - you can wrap the text around the images very neatly. Here we will add some more text to demostrate this
+	in details:Something Something Something SomethingSomething Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something
+	<img src="images/logocss.gif" style="float:right;" alt="css"/>
+	Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something Something
+</body>
+
+</html>

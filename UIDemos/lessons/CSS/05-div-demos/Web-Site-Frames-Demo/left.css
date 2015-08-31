@@ -1,0 +1,40 @@
+body
+{
+	background-image: url(left-background.gif);
+	background-repeat: repeat-y;
+	background-color: gray;
+	color: aqua;
+	margin: 0;
+}
+
+a:link
+{ 
+	color: aqua;
+	text-decoration: none;
+}
+
+a:visited
+{ 
+	color: aqua;
+	text-decoration: none;
+}
+
+a:hover
+{ 
+	color: #0099FF;
+	text-decoration: none;	 	
+}
+
+ul#menu-links
+{
+	list-style-type: none;
+	text-align: center;
+	font-weight: bold;
+	margin: 25px 0px;
+	padding: 0;
+}
+
+ul#menu-links li
+{
+	margin: 13px;
+}

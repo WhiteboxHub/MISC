@@ -1,0 +1,1 @@
+var itemTwo = document.getElementById('two');  // Get second list itemvar elText  = itemTwo.firstChild.nodeValue;    // Get its text contentelText = elText.replace('pine nuts', 'kale');  // Change pine nuts to kaleitemTwo.firstChild.nodeValue = elText;         // Update the list item
